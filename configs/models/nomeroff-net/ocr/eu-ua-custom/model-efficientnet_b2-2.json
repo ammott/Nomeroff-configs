@@ -1,0 +1,20 @@
+{
+  "application": "TextDetector",
+  "name": "eu_ua_custom_efficientnet_b2",
+  "dataset": "https://nomeroff.net.ua/datasets/autoriaNumberplateOcrUa-custom-2023-11-24.zip",
+  "repo": "https://github.com/ria-com/nomeroff-net.git",
+  "description": "Модель для розпінавання укр індевідуальних номерів підвищеної якості",
+  "url": "https://nomeroff.net.ua/models/ocr/ua-custom/torch/efficientnet_b2/anpr_ocr_512_eu_ua_custom_2023_11_23_efficientnet_b2.ckpt",
+  "backbone": "efficientnet_b2",
+  "letters": ["-", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K",
+    "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "Є", "Ї", "Б", "Г", "Д", "Ж", "З", "И", "Й",
+    "Л", "П", "У", "Ф", "Ц", "Ч", "Ш", "Щ", "Ь", "Э", "Ю", "Я"],
+  "max_text_len": 8,
+  "height": 100,
+  "width": 400,
+  "color_channels": 3,
+  "bidirectional": true,
+  "hidden_size": 32,
+  "linear_size": 512,
+  "accuracy": 0.9830769230769231
+}

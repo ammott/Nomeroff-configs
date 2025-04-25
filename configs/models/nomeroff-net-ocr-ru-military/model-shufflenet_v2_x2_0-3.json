@@ -1,0 +1,20 @@
+{
+  "application": "TextDetector",
+  "name": "ru_military_shufflenet_v2_x2_0",
+  "dataset": "https://nomeroff.net.ua/datasets/autoriaNumberplateOcrRu-Military-2022-03-24.zip",
+  "repo": "https://github.com/ria-com/nomeroff-net.git",
+  "description": "Модель для розпінавання номерних знаків військової техніки фашиського(російського) формату",
+
+  "url": "https://nomeroff.net.ua/models/ocr/ru-military/torch/model_v3.3/shufflenet_v2_x2_0/anpr_ocr_ru_military_2022_11_23_shufflenet_v2_x2_0.ckpt",
+  "backbone": "shufflenet_v2_x2_0",
+  "letters": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "E", "H", "K", "M", "O",
+              "P", "T", "X", "Y"],
+  "max_text_len": 8,
+  "height": 50,
+  "width": 200,
+  "color_channels": 3,
+  "bidirectional": true,
+  "hidden_size": 32,
+  "linear_size": 416,
+  "accuracy": 0.9977011494252873
+}

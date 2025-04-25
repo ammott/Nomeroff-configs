@@ -1,0 +1,20 @@
+  {
+  "application": "TextDetector",
+  "name": "eu_ua_1995_efficientnet_b2",
+  "dataset": "https://nomeroff.net.ua/datasets/autoriaNumberplateOcrUa-1995-2023-02-06.zip",
+  "repo": "https://github.com/ria-com/nomeroff-net.git",
+  "description": "Модель для розпінавання укр номерів формату 1995 року",
+
+  "url": "https://nomeroff.net.ua/models/ocr/ua-1995/torch/model_v3.3/efficientnet_b2/anpr_ocr_eu_ua_1995_2023_02_07_efficientnet_b2.ckpt",
+  "backbone": "efficientnet_b2",
+  "letters": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "E", "H", "I",
+              "K", "M", "O", "P", "T", "X"],
+  "max_text_len": 7,
+  "height": 100,
+  "width": 400,
+  "color_channels": 3,
+  "bidirectional": true,
+  "hidden_size": 32,
+  "linear_size": 512,
+  "accuracy": 0.9938530315730651
+}

@@ -1,0 +1,22 @@
+{
+  "application": "TextDetector",
+  "name": "su_shufflenet_v2_x2_0",
+  "dataset": "https://nomeroff.net.ua/datasets/autoriaNumberplateOcrSu-2021-08-27.zip",
+  "repo": "https://github.com/ria-com/nomeroff-net.git",
+  "description": "Модель для розпінавання номерних знаків форматів СССР",
+
+  "url": "https://nomeroff.net.ua/models/ocr/su/torch/model_v3.3/shufflenet_v2_x2_0/anpr_ocr_su_2022_11_22_shufflenet_v2_x2_0.ckpt",
+  "backbone": "shufflenet_v2_x2_0",
+  "letters": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9",
+    "І", "А", "Б", "В", "Г", "Д", "Е", "Ж", "З", "И",
+    "К", "Л", "М", "Н", "О", "П", "Р", "С", "Т", "У",
+    "Ф", "Х", "Ц", "Ч", "Ш", "Щ", "Э", "Ю", "Я"],
+  "max_text_len": 7,
+  "height": 50,
+  "width": 200,
+  "color_channels": 3,
+  "bidirectional": true,
+  "hidden_size": 32,
+  "linear_size": 512,
+  "accuracy": 0.9950790861159929
+}

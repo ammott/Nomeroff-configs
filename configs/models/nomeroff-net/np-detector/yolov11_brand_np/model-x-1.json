@@ -1,0 +1,8 @@
+{
+  "application": "Detector",
+  "name": "yolov11x_brand_np",
+  "url": "https://nomeroff.net.ua/models/object_detection/yolov11x-np-brand-keypoints-2024-10-11.pt",
+  "dataset": "https://nomeroff.net.ua/datasets/autoriaNumberplateDataset-2024-10-11.zip",
+  "description": "Модель для знаходження bbox номерних знаків на базі Yolo11x (покращеної якості) та чотри ключові точки",
+  "classes": ["numberplate", "brand_numberplate", "filled_numberplate", "empty_numberplate"]
+}

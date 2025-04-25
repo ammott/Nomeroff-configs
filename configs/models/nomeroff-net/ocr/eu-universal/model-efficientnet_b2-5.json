@@ -1,0 +1,23 @@
+{
+  "application": "TextDetector",
+  "name": "eu_efficientnet_b2",
+  "dataset": "https://nomeroff.net.ua/datasets/autoriaNumberplateOcrEu-2023-06-26.zip",
+  "repo": "https://github.com/ria-com/nomeroff-net.git",
+  "description": "Універсальна модель для розпінавання номерних знаків европейських форматів, номерів Молдови та Грузії",
+  "url": "https://nomeroff.net.ua/models/ocr/eu-universal/torch/efficientnet_b2/anpr_ocr_eu_universal_512_2024_01_11_efficientnet_b2.opt.ckpt",
+  "backbone": "efficientnet_b2",
+  "letters": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F", "G", "H", "I",
+              "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"],
+  "max_text_len": 10,
+  "height": 100,
+  "width": 400,
+  "color_channels": 3,
+  "bidirectional": true,
+  "hidden_size": 32,
+  "linear_size": 512,
+  "accuracy": {
+    "eu": 0.9906229068988613,
+    "md": 0.9964664310954063,
+    "ge": 0.9982001439884809
+  }
+}

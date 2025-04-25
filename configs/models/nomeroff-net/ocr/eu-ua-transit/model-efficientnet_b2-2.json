@@ -1,0 +1,19 @@
+{
+  "application": "TextDetector",
+  "name": "xx_transit_efficientnet_b2",
+  "dataset": "https://nomeroff.net.ua/datasets/autoriaNumberplateOcrUa-transit-2024-04-04.zip",
+  "repo": "https://github.com/ria-com/nomeroff-net.git",
+  "description": "Модель для розпінавання укр транзитних номерів підвищеної якості",
+  "url": "https://nomeroff.net.ua/models/ocr/ua-transit/torch/efficientnet_b2/anpr_ocr_xx_transit_512_2024_04_03_efficientnet_b2.opt.ckpt",
+  "backbone": "efficientnet_b2",
+  "letters": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "E", "H",
+    "I", "K", "M", "O", "P", "T", "X"],
+  "max_text_len": 8,
+  "height": 100,
+  "width": 400,
+  "color_channels": 3,
+  "bidirectional": true,
+  "hidden_size": 32,
+  "linear_size": 512,
+  "accuracy": 0.9980722891566265
+}

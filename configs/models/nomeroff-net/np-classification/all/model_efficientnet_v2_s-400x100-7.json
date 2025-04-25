@@ -1,0 +1,38 @@
+{
+  "application": "OptionsDetector",
+  "name": "numberplate_options",
+  "url": "https://nomeroff.net.ua/models/options/torch/efficientnet_v2_s/numberplate_options_2024_05_13__400x100_2_pytorch_lightning.ckpt",
+  "dataset": "https://nomeroff.net.ua/datasets/autoriaNumberplateOptionsDataset2-2024-05-11.zip",
+  "repo": "https://github.com/ria-com/nomeroff-net.git",
+  "description": "Классіфікація зображень зони номерного знаку по форматам країн",
+  "class_region": [
+    "ua-military",
+    "eu-ua-2015",
+    "eu-ua-2004",
+    "eu-ua-1995",
+    "eu",
+    "xx-transit",
+    "ru",
+    "kz",
+    "eu-ua-ordlo-dpr",
+    "eu-ua-ordlo-lpr",
+    "ge",
+    "by",
+    "su",
+    "kg",
+    "am",
+    "md",
+    "eu-ua-custom"
+  ],
+  "height": 100,
+  "width": 400,
+  "count_lines": [
+      1,
+      2,
+      3
+  ],
+  "accuracy": {
+    "region": 0.9972,
+    "count lines": 0.9986
+  }
+}

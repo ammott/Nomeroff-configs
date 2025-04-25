@@ -1,0 +1,6 @@
+{
+  "application": "Detector",
+  "name": "yolov8x",
+  "url": "https://nomeroff.net.ua/models/object_detection/yolov8x-keypoints-2024-08-19.pt",
+  "description": "Модель для знаходження bbox номерних знаків на базі YoloV8 (покращеної якості) та чотри ключові точки"
+}

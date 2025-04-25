@@ -1,0 +1,14 @@
+{
+  "application": "OrientationDetector",
+  "name": "numberplate_orientation",
+  "url": "https://nomeroff.net.ua/models/orientation/torch/vit_16_l/numberplate_orientation_2024_08_05_224x224_pytorch_lightning.pt",
+  "dataset": "",
+  "repo": "https://github.com/ria-com/nomeroff-net.git",
+  "description": "Знаходження орієнтації зображень зони номерного знаку.",
+  "height": 224,
+  "width": 224,
+  "metrics": {
+    "test_accuracy": 0.9837411046028137,
+    "test_loss": 0.5655192732810974
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "application": "TextDetector",
+  "name": "eu_ua_1995_shufflenet_v2_x2_0",
+  "dataset": "https://nomeroff.net.ua/datasets/autoriaNumberplateOcrUa-1995-2023-02-06.zip",
+  "repo": "https://github.com/ria-com/nomeroff-net.git",
+  "description": "Модель для розпінавання укр номерів формату 1995 року",
+
+  "url": "https://nomeroff.net.ua/models/ocr/ua-1995/torch/model_v3.3/shufflenet_v2_x2_0/anpr_ocr_eu_ua_1995_2022_11_22_shufflenet_v2_x2_0.ckpt",
+  "backbone": "shufflenet_v2_x2_0",
+  "letters": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "E", "H", "I",
+              "K", "M", "O", "P", "T", "X"],
+  "max_text_len": 7,
+  "height": 50,
+  "width": 200,
+  "color_channels": 3,
+  "bidirectional": true,
+  "hidden_size": 32,
+  "linear_size": 512,
+  "accuracy": 0.9726180497345627
+}

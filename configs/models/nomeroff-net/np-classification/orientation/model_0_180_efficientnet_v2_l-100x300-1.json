@@ -1,0 +1,18 @@
+{
+  "application": "OrientationDetector",
+  "name": "numberplate_orientation_0_180",
+  "url": "https://nomeroff.net.ua/models/orientation/torch/efficientnet_v2_l/orientation_model_0_180_2024_08_15.pt",
+  "dataset": "",
+  "backbone": "efficientnet_v2_l",
+  "repo": "https://github.com/ria-com/nomeroff-net.git",
+  "description": "Знаходження орієнтації зображень зони номерного знаку на два класси 0 або 180 .",
+  "height": 100,
+  "width": 300,
+  "classes": {
+    "0": 0,
+    "180": 1
+  },
+  "metrics": {
+    "test_accuracy": 0.9798
+  }
+}

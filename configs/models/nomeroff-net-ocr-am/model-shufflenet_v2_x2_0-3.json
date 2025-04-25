@@ -1,0 +1,20 @@
+{
+  "application": "TextDetector",
+  "name": "am_shufflenet_v2_x2_0",
+  "dataset": "https://nomeroff.net.ua/datasets/autoriaNumberplateOcrAm-2022-11-21-all.zip",
+  "repo": "https://github.com/ria-com/nomeroff-net.git",
+  "description": "Модель для розпінавання номерних знаків армянських форматів",
+
+  "url": "https://nomeroff.net.ua/models/ocr/am/torch/model_v3.3/shufflenet_v2_x2_0/anpr_ocr_am_2022_11_20_shufflenet_v2_x2_0.ckpt",
+  "backbone": "shufflenet_v2_x2_0",
+  "letters": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F", "G", "H",
+              "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"],
+  "max_text_len": 7,
+  "height": 50,
+  "width": 200,
+  "color_channels": 3,
+  "bidirectional": true,
+  "hidden_size": 32,
+  "linear_size": 512,
+  "accuracy": 0.9951612903225806
+}
